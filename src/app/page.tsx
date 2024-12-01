@@ -1,7 +1,6 @@
 
 import Link from "next/link";
 import LoginForm from "./Login/page";
-import SignInGitHub from "./components/login/LogInComponent";
 
 
 export default function Home() {
@@ -9,7 +8,6 @@ export default function Home() {
     <div>
      <LoginForm />
      <Link href="/SignUpComponent">Login/SignUp</Link>
-      {/* <SignInGitHub /> */}
     </div>
   );
 }
