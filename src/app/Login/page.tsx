@@ -43,7 +43,7 @@ export default function LoginForm() {
         <SignInGitHub />
         <br />
         <Link  href={'/signup'}>
-        Don't have an account?<span className="underline">Sign Up</span>
+        Dont have an account?<span className="underline">Sign Up</span>
         </Link>
       </div>
     </div>
